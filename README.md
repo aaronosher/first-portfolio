@@ -54,7 +54,7 @@ Here are some common tags that we'll be using
  - `<ul>`, `<ol>`, `<li>`: tags for building unordered (bulleted `<ul>`) and ordered (number `<li>`) lists
 
 ### Attributes
-In both XML and HTML a tag can have attributes - these can affect their behaviour or how they look. Int this workshop we'll only be looking at five attributes: `src`, `target`, `href`, `id`, and `class`.
+In both XML and HTML a tag can have attributes - these can affect their behaviour or how they look. In this workshop we'll only be looking at five attributes: `src`, `target`, `href`, `id`, and `class`.
 
 `src` indicates the remote source of an asset that should be used. Two main examples are `<img>` for displaying an image, and `<link>` which we use for loading stylesheets and fonts, etc.
 
@@ -83,7 +83,7 @@ To add an inline comment in HTML warp the comment with `<!--` and `-->`.
 ```
 
 ## 4. Styles and CSS
-In HTML we use Cascading Style Sheets (CSS) to style to document.
+In HTML we use Cascading Style Sheets (CSS) to style the document.
 
 Using CSS we can set things like borders, colour, text size, position, animations and more.
 
