@@ -60,7 +60,7 @@ In both XML and HTML a tag can have attributes - these can affect their behaviou
 
 `target` and `href` are used by the `a` tag to denote the hyperlink reference (href), which is where the link should take you. `target` indicates where the link should be opened. We won't usually use this for links to pages on our own website, but it's common to set it to `_blank` when you want to open up the link in a new window or tab, e.g. for external sites.
 
-`id` and `class` are used for referencing your element. `id`s must be unique, weheras `class` can be the same for multiple elements. We primarily use these for setting styles from a stylesheet, but may also use them when selecting the element using JavaScript (whcih is outside the scope of this workshop).
+`id` and `class` are used for referencing your element. `id`s must be unique, weheras `class` can be the same for multiple elements. We primarily use these for setting styles from a stylesheet, but may also use them when selecting the element using JavaScript (which is outside the scope of this workshop).
 
 Attributes are added to an element by adding a space after the tag name and then using the `attribute="value"` syntax e.g. `<img src="something.jpg">`.
 
@@ -71,8 +71,8 @@ To add an inline comment in HTML warp the comment with `<!--` and `-->`.
 ### Basic Structure of an HTML document
 
 ```html
-<!DOCTYPE html>                 <!-- denotates that we're using HTML5 -->
-<html>                          <!-- start the html part of the document -->
+<!DOCTYPE html>                 <!-- denotes that we're using HTML5 -->
+<html>                          <!-- start of the html part of the document -->
   <head>                        <!-- start of header information -->
     <title>My Document</title>  <!-- set the page title -->
   </head>                       <!-- end of header information -->
@@ -90,7 +90,7 @@ Using CSS we can set things like borders, colour, text size, position, animation
 In CSS there are two core concepts, the selector, and the styles.
 
 ### Selectors
-Selectors are what we use to denote what we want to affect the styles of. Theree of the most common types of selectors are tag name, class, and id.
+Selectors are what we use to denote what we want to affect the styles of. Three of the most common types of selectors are tag name, class, and id.
 
 To reference a tag name we just enter the tag name without the `<` `>`, e.g. `div` for selecting all divs.
 
